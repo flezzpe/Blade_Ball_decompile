@@ -22,6 +22,7 @@ end
 local getAbilityCooldownMultiplier = require(ReplicatedStorage.Shared.GetAbilityCooldownMultiplier)
 local useBall2 = require(ReplicatedStorage.Shared.UseBall2)()
 
+--// assert in release 😭😭, bros goofy skid
 assert(useBall2, "UseBall2 is not enabled. New abilities module is only available with the new ball enabled.")
 
 local abilities = {}
